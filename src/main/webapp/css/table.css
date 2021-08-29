@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.table1 {
+	/*
+	border-collapse : 표(table)와 테두리셀(td)사이의 간격
+	seperate : 간격 (default)
+	collapse : 간격X, 겹치는 부분 한줄로
+	*/
+	border-collapse: separate;
+	border-spacing: 1px;
+	text-align: left;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	margin: 20px 10px;
+}
+
+/* 항목명에 대한 코드 */
+.table1 th {
+	width: 150px;
+	padding: 10px;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	background: #efefef;
+}
+
+/* 내용 코드 */
+.table1 td {
+	width: 350px;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+.table2 {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: 20px 10px;
+}
+
+.th2 {
+	width: 150px;
+	padding: 10px;
+	font-weight: bold;
+	color: #fff;
+	background: #e7708d;
+	margin: 20px 10px;
+}
+
+.table2 tbody th {
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.table2 td {
+	width: 350px;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+/* 1번버튼 : 입체감 있는 버튼 만들기 */
+.btn1 {
+	margin: auto;
+	width: 300px;
+	height: 120px;
+	text-align: center;
+	box-shadow: 1px 1px 3px 1px #dadce0;
+}
+
+/* transition을 이용한 버튼 */
+.btn2 {
+	background: #1AAB8A; /*배경색*/
+	color: #fff; /*글자색:흰색*/
+	border: none;
+	height: 60px;
+	font-size: 30px;
+	padding: 0 40px;
+	cursor: pointer; /*버튼에 마우스를 놓았을 때 커서모양*/
+	/*
+	transition-property : 변화를 적용할 CSS속성
+	none, all, 특정
+	
+	transition-duration : 변화가 시작된 시점부터 끝날 시점 시간
+	s, ms(1/1000s) 단위
+	
+	transition-timing-function : 변화 속도의 패턴
+	ease, linear, ease-in, ease-out, ease-in-out, steps, step-start, step-end, ...
+	
+	transition-delay : 변화를 시작할 시간
+	다른 요소의 효과가 발생한 뒤에 원하는 변화
+	*/
+	transition: all 800ms ease;
+	outline: none;
+}
+
+/* 원모양 버튼*/
+.btn3 {
+	width: 150px;
+	height: 150px;
+	border: 2px solid #34495e;
+	text-align: center;
+	cursor: pointer;
+	overflow: hidden;
+	border-radius: 50%
+}
+
+/* 버튼 3세트 */
+.btn4 {
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	border-radius: 50px;
+	transition: all 0.1s ease-in-out;
+	font-size: 32px;
+	color: #34d2c7;
+	line-height: 100px;	
+}
